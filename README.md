@@ -14,7 +14,7 @@
 
 主域名：
 
-`luyi.com`
+`luyi.com.au`
 
 CrazyDomains 后台已经显示 `Registered`，可以继续准备网站部署和 DNS 绑定。
 
@@ -48,10 +48,10 @@ GitHub repository + Cloudflare Pages
 4. 连接 GitHub repository
 5. Build command 留空
 6. Output directory 设置为 `/`
-7. 部署成功后，在 Cloudflare Pages 添加自定义域名 `luyi.com`
+7. 部署成功后，添加自定义域名 `luyi.com.au`
 8. 按 Cloudflare 指示到 CrazyDomains 修改 nameservers 或 DNS records
 9. 等待 DNS 生效
-10. 打开 `https://luyi.com` 检查页面
+10. 打开 `https://luyi.com.au` 检查页面
 
 ## 后续需要补充
 
