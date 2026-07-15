@@ -574,15 +574,8 @@ h3 {
   margin-top: 14px;
 }
 
-.service-price {
-  display: block;
-  margin: 18px 0 10px;
-  color: var(--green-deep);
-  font-size: 26px;
-  line-height: 1.25;
-}
-
 .service-meta {
+  margin-top: 18px !important;
   color: var(--ink-2) !important;
   font-size: 14px;
   font-weight: 750;
