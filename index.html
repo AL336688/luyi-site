@@ -22,6 +22,9 @@
     <meta property="og:image" content="https://luyi.com.au/luyi-work.jpg" />
     <meta name="robots" content="index,follow" />
     <link rel="canonical" href="https://luyi.com.au/" />
+    <link rel="alternate" hreflang="zh-CN" href="https://luyi.com.au/" />
+    <link rel="alternate" hreflang="en" href="https://luyi.com.au/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://luyi.com.au/" />
     <link rel="icon" href="./luyi-work.jpg" type="image/jpeg" />
     <link rel="stylesheet" href="./styles.css" />
     <script src="./contact.js" defer></script>
@@ -106,13 +109,16 @@
         <span>Luyi</span>
         <span>路易</span>
       </a>
-      <nav aria-label="主导航">
-        <a href="#edge">优势</a>
-        <a href="#diagnosis">判断</a>
-        <a href="#services">服务</a>
-        <a href="#fit">适合谁</a>
-        <a href="#contact">联系</a>
-      </nav>
+      <div class="header-actions">
+        <nav aria-label="主导航">
+          <a href="#edge">优势</a>
+          <a href="#diagnosis">判断</a>
+          <a href="#services">服务</a>
+          <a href="#fit">适合谁</a>
+          <a href="#contact">联系</a>
+        </nav>
+        <a class="language-switch" href="/en/" hreflang="en" lang="en" aria-label="Switch to English">EN</a>
+      </div>
     </header>
 
     <main id="top">
@@ -385,9 +391,8 @@
 
         <form
           class="contact-form"
-          action="mailto:aspenlu@proton.me"
+          action="https://formspree.io/f/myknbyoo"
           method="post"
-          enctype="text/plain"
           data-contact-form
         >
           <div class="field-grid">
@@ -440,8 +445,8 @@
             <textarea name="message" rows="4" placeholder="可以简单写一下产品、价格带、目标市场或你目前最卡的点。"></textarea>
           </label>
           <div class="contact-form-footer">
-            <button type="submit" class="button primary">通过邮件发送项目情况</button>
-            <p>点击后会打开你的邮件应用，由你确认发送，不会在页面内静默收集资料。</p>
+            <button type="submit" class="button primary" data-submit-button>提交项目资料</button>
+            <p>提交的信息仅用于回复项目咨询，不会公开或出售。</p>
           </div>
           <p class="form-status" role="status" aria-live="polite" data-form-status></p>
         </form>
